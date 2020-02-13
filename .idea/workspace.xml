@@ -4,12 +4,19 @@
     <generated />
   </component>
   <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-    </configurations>
+    <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd5388f-643d-41e0-b48f-b324fb5fc2f0" name="Default Changelist" comment="" />
+    <list default="true" id="2cd5388f-643d-41e0-b48f-b324fb5fc2f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dots_Boxes.depend" beforeDir="false" afterPath="$PROJECT_DIR$/Dots_Boxes.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dots_Boxes.layout" beforeDir="false" afterPath="$PROJECT_DIR$/Dots_Boxes.layout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Dots&amp;Boxes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Dots&amp;Boxes.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.dat" beforeDir="false" afterPath="$PROJECT_DIR$/save.dat" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,43 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="1482" lean-forward="true" selection-start-line="1482" selection-end-line="1482" />
-              <folding>
-                <element signature="e#79#215#1" />
-                <element signature="e#235#1007#0" />
-                <element signature="e#1009#1064#1" />
-                <element signature="e#1085#1700#0" />
-                <element signature="e#1702#4469#0" />
-                <element signature="e#4471#4840#0" />
-                <element signature="e#4842#5036#0" />
-                <element signature="e#5038#5508#0" />
-                <element signature="e#5510#6537#0" />
-                <element signature="e#6539#7555#0" />
-                <element signature="e#7557#8434#0" />
-                <element signature="e#8436#9482#0" />
-                <element signature="e#9484#10155#0" />
-                <element signature="e#10157#11681#0" />
-                <element signature="e#11683#12553#0" />
-                <element signature="e#12555#13897#0" />
-                <element signature="e#13899#14123#0" />
-                <element signature="e#14125#15970#0" />
-                <element signature="e#15972#16842#0" />
-                <element signature="e#16844#19618#0" />
-                <element signature="e#19620#20682#0" />
-                <element signature="e#20684#21859#0" />
-                <element signature="e#21861#22024#0" />
-                <element signature="e#22026#22189#0" />
-                <element signature="e#22191#23060#0" />
-                <element signature="e#23062#24364#0" />
-                <element signature="e#24366#25265#0" />
-                <element signature="e#25267#26628#0" />
-                <element signature="e#26630#43329#0" />
-                <element signature="e#43331#53263#0" />
-                <element signature="e#53266#53312#0" />
-                <element signature="e#53314#54130#0" />
-                <element signature="e#54132#55111#0" />
-              </folding>
+            <state relative-caret-position="937">
+              <caret line="1496" selection-start-line="1496" selection-end-line="1496" />
             </state>
           </provider>
         </entry>
@@ -69,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,6 +56,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -96,6 +70,17 @@
               <item name="Dots_Boxes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dots_Boxes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Dots_Boxes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dots_Boxes" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dots_Boxes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dots_Boxes" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="Debug" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,10 +90,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/zzProgram Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/Debug/Dots&amp;Boxes.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,6 +107,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/bin/Debug/Dots&amp;Boxes.exe" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,17 +125,27 @@
       <option name="presentableId" value="Default" />
       <updated>1581606161504</updated>
       <workItem from="1581606162674" duration="202000" />
-      <workItem from="1581607092028" duration="765000" />
+      <workItem from="1581607092028" duration="3596000" />
+      <workItem from="1581612060699" duration="44000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1581607991147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581607991147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="967000" />
+    <option name="totallyTimeSpent" value="3842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -166,46 +168,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="1482" lean-forward="true" selection-start-line="1482" selection-end-line="1482" />
-          <folding>
-            <element signature="e#79#215#1" />
-            <element signature="e#235#1007#0" />
-            <element signature="e#1009#1064#1" />
-            <element signature="e#1085#1700#0" />
-            <element signature="e#1702#4469#0" />
-            <element signature="e#4471#4840#0" />
-            <element signature="e#4842#5036#0" />
-            <element signature="e#5038#5508#0" />
-            <element signature="e#5510#6537#0" />
-            <element signature="e#6539#7555#0" />
-            <element signature="e#7557#8434#0" />
-            <element signature="e#8436#9482#0" />
-            <element signature="e#9484#10155#0" />
-            <element signature="e#10157#11681#0" />
-            <element signature="e#11683#12553#0" />
-            <element signature="e#12555#13897#0" />
-            <element signature="e#13899#14123#0" />
-            <element signature="e#14125#15970#0" />
-            <element signature="e#15972#16842#0" />
-            <element signature="e#16844#19618#0" />
-            <element signature="e#19620#20682#0" />
-            <element signature="e#20684#21859#0" />
-            <element signature="e#21861#22024#0" />
-            <element signature="e#22026#22189#0" />
-            <element signature="e#22191#23060#0" />
-            <element signature="e#23062#24364#0" />
-            <element signature="e#24366#25265#0" />
-            <element signature="e#25267#26628#0" />
-            <element signature="e#26630#43329#0" />
-            <element signature="e#43331#53263#0" />
-            <element signature="e#53266#53312#0" />
-            <element signature="e#53314#54130#0" />
-            <element signature="e#54132#55111#0" />
-          </folding>
+        <state relative-caret-position="937">
+          <caret line="1496" selection-start-line="1496" selection-end-line="1496" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
+#include <unistd.h>
 
 struct Player {
     int score;
@@ -15,7 +16,7 @@ struct Player {
 
 void highScore() {
     FILE *text = fopen("highscore.txt", "r+");
-    if(text == NULL) {//if file does not exist, create it
+    if (text == NULL) {//if file does not exist, create it
         text = fopen("highscore.txt", "wb");
     }
     if (text != NULL) {
@@ -521,6 +522,7 @@ void Data_displayed(int counter, int n, clock_t begin) {
     SetConsoleTextAttribute(hConsole, 11);
     printf("For undo please type \"undo\"\n");
     printf("For redo please type \"redo\"\n");
+    printf("For save please type \"save\"\n");
     printf("For exit please type \"exit\"\n");
     printf("For Main Menu please type \"menu\"\n");
     SetConsoleTextAttribute(hConsole, 15);
@@ -1440,43 +1442,55 @@ void save(int n, int m, int type, int i, int counter, char a[n][m], int clr[n][m
 }
 
 void load() {
-    FILE *infile;
-    infile = fopen("save.dat", "r");
 
-    fread(&player1, sizeof(struct Player), 1, infile);
-    fread(&player2, sizeof(struct Player), 1, infile);
-    int game_type = getw(infile);
-    int i = getw(infile);
-    int counter = getw(infile);
-    int n = getw(infile);
-    int m = getw(infile);
-    char a[n][m];
-    int clr[n][m];
 
-    for (int i1 = 0; i1 < n; i1++) {
-        for (int j1 = 0; j1 < m; j1++) {
-            a[i1][j1] = getw(infile);
+    if (access("save.dat", F_OK) != -1) {
+        // file exists
+        FILE *infile;
+        infile = fopen("save.dat", "r");
+
+        fread(&player1, sizeof(struct Player), 1, infile);
+        fread(&player2, sizeof(struct Player), 1, infile);
+        int game_type = getw(infile);
+        int i = getw(infile);
+        int counter = getw(infile);
+        int n = getw(infile);
+        int m = getw(infile);
+        char a[n][m];
+        int clr[n][m];
+
+        for (int i1 = 0; i1 < n; i1++) {
+            for (int j1 = 0; j1 < m; j1++) {
+                a[i1][j1] = getw(infile);
+            }
         }
-    }
-    for (int i1 = 0; i1 < n; i1++) {
-        for (int j1 = 0; j1 < m; j1++) {
-            clr[i1][j1] = getw(infile);
+        for (int i1 = 0; i1 < n; i1++) {
+            for (int j1 = 0; j1 < m; j1++) {
+                clr[i1][j1] = getw(infile);
+            }
         }
-    }
 
-    clock_t begin = getw(infile) + clock();
+        clock_t begin = getw(infile) + clock();
 
-    fclose(infile);
+        fclose(infile);
 
-    if (game_type == 1) {
-        system("cls");
-        print_array(n, m, a, counter, clr);
-        draw(n, m, a, clr, i, counter, begin);
+        if (game_type == 1) {
+            system("cls");
+            print_array(n, m, a, counter, clr);
+            draw(n, m, a, clr, i, counter, begin);
+        } else {
+            system("cls");
+            print_array(n, m, a, counter, clr);
+            draw_Computer(n, m, a, clr, i, counter, begin);
+        }
+
     } else {
+        // file doesn't exist
         system("cls");
-        print_array(n, m, a, counter, clr);
-        draw_Computer(n, m, a, clr, i, counter, begin);
+        printf("No Saved Games Found!\n\n");
+        Main_Menu();
     }
+
 
 }
 
