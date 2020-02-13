@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1513979986 source:f:\c language\dots&boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1513980037 source:c:\users\user\desktop\dots&boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1581606424 source:c:\users\karim\desktop\dots_boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
